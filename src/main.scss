@@ -73,7 +73,11 @@
     margin-bottom: 5%;
     align-items: center;
     .links {
+        display: flex;
       margin-left: 2%;
+      .icons{
+        margin-left: 15px;
+      }
     }
   }
 }
