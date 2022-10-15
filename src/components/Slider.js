@@ -12,7 +12,7 @@ export default function Slider() {
                 <p className='text-3'>Web Developer And UI Designer</p>
                 <p className='text-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id exercitationem soluta doloremque officia alias commodi quia dolores quibusdam saepe illo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure provident, beatae quia tempora architecto voluptate impedit at numquam nulla culpa?</p>
             </div>
-            <div className='slider-btn'>Let's Talk</div>
+            <a href="#footer" className='slider-btn'>Let's Talk</a>
             <div className='slider-my'>
                 <p className='text-4'>Chech Out My</p>
                 <div className='links'>
