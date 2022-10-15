@@ -6,7 +6,6 @@
 }
 body {
   background-color: #21272f;
-  
 }
 .header {
   display: flex;
@@ -22,6 +21,7 @@ body {
   .header-item {
     margin: auto;
     font-size: 70%;
+    cursor: pointer;
   }
   .header-logo {
     margin-left: -13%;
@@ -30,17 +30,7 @@ body {
     justify-content: center;
   }
 }
-@media (max-width: 762px) {
-  .my-services {
-    display: flex;
-    width: 100%;
-    height: auto;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 5%;
-    justify-content: space-between;
-  }
-}
+
 .slider {
   width: 80%;
   margin: auto;
@@ -77,7 +67,7 @@ body {
   }
   .slider-btn {
     border: 1px solid black;
-    
+
     padding: 2% 4%;
     margin-top: 5vh;
     background-color: #00bd95;
@@ -85,6 +75,18 @@ body {
     font-size: 7vh;
     text-decoration: none;
     color: whitesmoke;
+    transition: all ease-in-out 0.5s;
+    //Animation
+    &:hover {
+      transition: all ease-in-out 0.5s;
+      border-radius: 50px;
+      background: linear-gradient(124deg, #1de840, #ff2400, whitesmoke);
+      background-size: 1800% 1800%;
+      -webkit-animation: rainbow 18s ease infinite;
+      -z-animation: rainbow 18s ease infinite;
+      -o-animation: rainbow 18s ease infinite;
+      animation: rainbow 18s ease infinite;
+    }
   }
   .slider-my {
     display: flex;
@@ -143,9 +145,13 @@ body {
       flex-direction: row;
       margin: auto;
       margin-top: 5%;
+      @media (max-width: 768px) {
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
       justify-content: space-between;
-      
-
       .services-boxs {
         display: flex;
         flex-direction: column;
@@ -161,6 +167,11 @@ body {
         border-radius: 6px;
         text-align: center;
         margin-bottom: 10%;
+        @media (max-width: 768px) {
+          margin: 5% 0;
+          width: auto;
+          height: auto;
+        }
         .services-logo {
           width: 30%;
           height: auto;
@@ -197,12 +208,54 @@ body {
     align-items: center;
     padding-bottom: 5%;
     color: whitesmoke;
-    .i1{
+    .i1 {
       width: 50px;
       height: 50px;
     }
   }
-  
 }
 
-
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-moz-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-o-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
