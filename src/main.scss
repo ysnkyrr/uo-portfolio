@@ -22,6 +22,19 @@ body {
     margin: auto;
     font-size: 70%;
     cursor: pointer;
+    text-decoration: none;
+    color:whitesmoke;
+    &:hover {
+      transition: all ease-in-out 0.5s;
+      border-radius: 50px;
+      background: linear-gradient(124deg, #1de840);
+      background-size: 1800% 1800%;
+      -webkit-animation: rainbow 18s ease infinite;
+      -z-animation: rainbow 18s ease infinite;
+      -o-animation: rainbow 18s ease infinite;
+      animation: rainbow 18s ease infinite;
+    }
+
   }
   .header-logo {
     margin-left: -13%;
@@ -80,7 +93,7 @@ body {
     &:hover {
       transition: all ease-in-out 0.5s;
       border-radius: 50px;
-      background: linear-gradient(124deg, #1de840, #ff2400, whitesmoke);
+      background: linear-gradient(124deg, #1de840);
       background-size: 1800% 1800%;
       -webkit-animation: rainbow 18s ease infinite;
       -z-animation: rainbow 18s ease infinite;
@@ -211,6 +224,9 @@ body {
     .i1 {
       width: 50px;
       height: 50px;
+    }
+    .y2{
+      cursor: pointer;
     }
   }
 }

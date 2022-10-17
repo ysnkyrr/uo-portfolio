@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Slider() {
     return (
-        <div className='slider'>
+        <div className='slider' id='slider'>
             <div className='slider-text'>
                 <div className='t1'>
                     <p className='text'>Hello</p>
@@ -10,14 +10,14 @@ export default function Slider() {
                 </div>
                 <p className='text-2'>Yasin AKYAR</p>
                 <p className='text-3'>Web Developer And UI Designer</p>
-                <p className='text-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id exercitationem soluta doloremque officia alias commodi quia dolores quibusdam saepe illo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure provident, beatae quia tempora architecto voluptate impedit at numquam nulla culpa?</p>
+                <p className='text-4'>I can be curious. I'm always with son technologies and trying to educate. I am open to research. The team is someone who can adapt easily and is an area where you will be in the team. I am energetic and verbal, who always works with a smile. I do not begin to cultivate and somehow cultivate in human care.</p>
             </div>
             <a href="#footer" className='slider-btn'>Let's Talk</a>
             <div className='slider-my'>
                 <p className='text-4'>Chech Out My</p>
                 <div className='links'>
-                    <a href="https://github.com/ysnkyrr" target="_blank"><img className='icons' src="/github-icon.svg" alt="" /></a>
-                    <a href="https://www.linkedin.com/in/yasin-akyar-58572a180/" target="_blank"><img className='icons' src="/linkedin-logo.svg" alt="" /></a>
+                    <a href="https://github.com/ysnkyrr" target="_blank"><img className='icons' src="/logo/github-icon.svg" alt="" /></a>
+                    <a href="https://www.linkedin.com/in/yasin-akyar-58572a180/" target="_blank"><img className='icons' src="/logo/linkedin-logo.svg" alt="" /></a>
                 </div>
             </div>
         </div>

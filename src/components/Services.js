@@ -12,9 +12,11 @@ export default function Services() {
                     <p className='services-text-2'>What I Do</p>
                 </div>
                 <div className='my-services'>
-                    <div className='services-boxs'><img  src="/ux-desing.png" alt="" className='services-logo' /><p className='services-boxs-texts'>UI-UX Desing</p><p className='services-boxs-text-1'>UX-UI Tasarım yapılır tasarımcı yazılımcı geldii hanımmm</p></div>
-                    <div className='services-boxs'><img src="/graphic-desing.png" alt="" /><p className='services-boxs-texts'>Graphic Desing</p><p className='services-boxs-text-1'>UX-UI Tasarım yapılır tasarımcı yazılımcı geldii hanımmm</p></div>
-                    <div className='services-boxs'><img src="/web-desing.png" alt="" /><p className='services-boxs-texts'>Web Development</p><p className='services-boxs-text-1'>UX-UI Tasarım yapılır tasarımcı yazılımcı geldii hanımmm</p></div>
+                    <div className='services-boxs'><img src="/logo/ux-desing.png" alt="" className='services-logo' /><p className='services-boxs-texts'>UI-UX Desing</p><p className='services-boxs-text-1'>I can make user-oriented designs that are easy to understand and take into account user habits.</p></div>
+                    <div className='services-boxs'><img src="/logo/graphic-desing.png" alt="" /><p className='services-boxs-texts'>Graphic Desing</p><p className='services-boxs-text-1'>
+                        I make designs that appeal to the tastes of users and my customers with their plain appearance.</p></div>
+                    <div className='services-boxs'><img src="/logo/web-desing.png" alt="" /><p className='services-boxs-texts'>Web Development</p><p className='services-boxs-text-1'>
+                        I am constantly improving myself to keep up with new technologies, I can understand my customers' requests and put them into practice.</p></div>
                 </div>
             </div>
         </div>
