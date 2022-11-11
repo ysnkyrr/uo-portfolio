@@ -1,4 +1,4 @@
--- Kendi portfolio web sitemi oluşturduğum proje. React.js kullanılarak yapıldı.
+-- Portfolio web sitemi oluşturduğum proje. React.js kullanılarak yapıldı.
 
 # Getting Started with Create React App
 
