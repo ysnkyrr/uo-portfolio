@@ -6,6 +6,7 @@ export default function Navbar() {
             <a href=""><img className='header-logo' src="/logo/uo-logo-green.png" alt="" /></a>
             <a  className='header-item'  href="">Home</a>
             <a className='header-item' href="#slider">About Me</a> 
+            <a className='header-item green' href="">Quiz App</a>
             <a className='header-item' href="#footer">Contact Me</a> 
         </div>
     )

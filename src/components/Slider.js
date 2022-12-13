@@ -10,7 +10,7 @@ export default function Slider() {
                 </div>
                 <p className='text-2'>Yasin AKYAR</p>
                 <p className='text-3'>Web Developer And UI Designer</p>
-                <p className='text-4'>I can be curious. I'm always with son technologies and trying to educate. I am open to research. The team is someone who can adapt easily and is an area where you will be in the team. I am energetic and verbal, who always works with a smile. I do not begin to cultivate and somehow cultivate in human care.</p>
+                <p className='text-4'> I'm always with soon technologies and trying to educate. I am open to research. The team is someone who can adapt easily and is an area where you will be in the team. I am energetic and verbal, who always works with a smile. I do not begin to cultivate and somehow cultivate in human care.</p>
             </div>
             <a href="#footer" className='slider-btn'>Let's Talk</a>
             <div className='slider-my'>
