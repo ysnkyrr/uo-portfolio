@@ -23,7 +23,7 @@ body {
     font-size: 70%;
     cursor: pointer;
     text-decoration: none;
-    color:whitesmoke;
+    color: whitesmoke;
     &:hover {
       transition: all ease-in-out 0.5s;
       border-radius: 50px;
@@ -34,7 +34,6 @@ body {
       -o-animation: rainbow 18s ease infinite;
       animation: rainbow 18s ease infinite;
     }
-
   }
   .header-logo {
     margin-left: -13%;
@@ -225,7 +224,7 @@ body {
       width: 50px;
       height: 50px;
     }
-    .y2{
+    .y2 {
       cursor: pointer;
     }
   }
@@ -275,11 +274,13 @@ body {
     background-position: 0% 82%;
   }
 }
-.green{
+.green {
   background: #00bd95;
   width: 20%;
   height: 20px;
   text-align: center;
   justify-content: center;
   align-items: center;
+  padding-top: 8px;
+  border-radius: 14px;
 }
