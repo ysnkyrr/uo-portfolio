@@ -5,16 +5,17 @@ import Navbar from './components/Navbar';
 import Slider from './components/Slider';
 import Services from './components/Services';
 import Footer from './components/Footer';
+import { Routes, Route, Link, NavLink } from "react-router-dom";
+import Home from './components/Home';
 
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Slider />
-      <Services />
-      <Footer />
+      <Routes basename={"/myreactapp"}>
+        <Route exact path={`/`} element={<Home />} />
+      </Routes>
     </div>
   );
 }
