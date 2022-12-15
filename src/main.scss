@@ -15,12 +15,16 @@ body {
   flex-direction: row;
   color: whitesmoke;
   background-color: #21272f;
+  @media (max-width: 768px) {
+    width: 96%;
+  }
 
   /* border: 1px solid #21272f;
   border-radius: 4px; */
   .header-item {
     margin: auto;
-    font-size: 70%;
+    font-size: 14px;
+    font-weight: 900;
     cursor: pointer;
     text-decoration: none;
     color: whitesmoke;
@@ -48,33 +52,62 @@ body {
   margin: auto;
   color: whitesmoke;
   background-color: #21272f;
+  @media (max-width: 768px) {
+    width: 96%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
   .slider-text {
     margin-top: 7%;
     width: 70%;
+    @media (max-width: 768px) {
+      margin: auto;
+    }
+
     .t1 {
       display: flex;
       flex-direction: row;
+      @media (max-width: 768px) {
+        margin: auto;
+      }
+
       .text {
-        font-size: 7vh;
+        font-size: 30px;
         margin-top: 3%;
+        @media (max-width: 768px) {
+          margin: auto;
+          margin-right: 1%;
+        }
       }
       .text-1 {
-        font-size: 7vh;
+        font-size: 30px;
         color: #00bd95;
         margin-top: 3%;
+        @media (max-width: 768px) {
+          margin: auto;
+          margin-left: 0;
+        }
       }
     }
     .text-2 {
-      font-size: 9vh;
+      font-size: 20px;
       margin-top: 3%;
     }
     .text-3 {
       margin-top: 3%;
-      font-size: 4vh;
+      font-size: 14px;
     }
     .text-4 {
       margin-top: 4%;
       margin-bottom: 5%;
+      @media (max-width: 768px) {
+        margin: auto;
+        margin-top: 4%;
+        margin-bottom: 7%;
+        width: 100%;
+        text-align: justify;
+      }
     }
   }
   .slider-btn {
@@ -88,6 +121,9 @@ body {
     text-decoration: none;
     color: whitesmoke;
     transition: all ease-in-out 0.5s;
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
     //Animation
     &:hover {
       transition: all ease-in-out 0.5s;
@@ -105,11 +141,23 @@ body {
     margin-top: 5%;
     margin-bottom: 2%;
     align-items: center;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      margin: auto;
+      margin-top: 5%;
+    }
     .links {
       display: flex;
       margin-left: 2%;
+      @media (max-width: 768px) {
+        margin: auto;
+      }
       .icons {
         margin-left: 15px;
+        @media (max-width: 768px) {
+          margin: auto;
+          margin-top: 1%;
+        }
       }
     }
   }
@@ -137,17 +185,26 @@ body {
           width: auto;
           font-size: 7vh;
           margin-top: 3%;
-          margin-right: 1%;
+          margin-right: 3%;
+          @media (max-width: 768px) {
+            font-size: 30px;
+          }
         }
         .services-text-1 {
           font-size: 7vh;
           color: #00bd95;
           margin-top: 3%;
+          @media (max-width: 768px) {
+            font-size: 30px;
+          }
         }
       }
       .services-text-2 {
         font-size: 9vh;
         margin-top: 1%;
+        @media (max-width: 768px) {
+          font-size: 30px;
+        }
       }
     }
     .my-services {
