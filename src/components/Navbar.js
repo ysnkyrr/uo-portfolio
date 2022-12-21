@@ -15,6 +15,9 @@ export default function Navbar() {
       <a className="header-item green" href="/quiz" target={"_blank"}>
         Quiz App
       </a>
+      <a className="header-item green" href="/weather" target={"_blank"}>
+        Weather App
+      </a>
       <a className="header-item" href="#footer">
         Contact Me
       </a>
