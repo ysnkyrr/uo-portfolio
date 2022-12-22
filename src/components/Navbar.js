@@ -12,12 +12,17 @@ export default function Navbar() {
       <a className="header-item" href="#slider">
         About Me
       </a>
-      <a className="header-item green" href="/quiz" target={"_blank"}>
-        Quiz App
-      </a>
-      <a className="header-item green" href="/weather" target={"_blank"}>
-        Weather App
-      </a>
+      <div className="dropdown header-item ">
+        <button class="dropbtn ">My Projects</button>
+        <div className="dropdown-content">
+          <a className="" href="/quiz" target={"_blank"}>
+            Quiz App
+          </a>
+          <a className="" href="/weather" target={"_blank"}>
+            Weather App
+          </a>
+        </div>
+      </div>
       <a className="header-item" href="#footer">
         Contact Me
       </a>
