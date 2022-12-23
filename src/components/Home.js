@@ -1,8 +1,9 @@
-import React from 'react'
-import Footer from './Footer';
-import Navbar from './Navbar';
-import Services from './Services';
-import Slider from './Slider';
+import React from "react";
+import Background from "./Background";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
+import Services from "./Services";
+import Slider from "./Slider";
 
 function Home() {
   return (
@@ -11,8 +12,9 @@ function Home() {
       <Slider />
       <Services />
       <Footer />
+      <Background />
     </div>
   );
 }
 
-export default Home
+export default Home;

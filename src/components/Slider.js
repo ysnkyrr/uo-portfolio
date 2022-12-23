@@ -23,7 +23,7 @@ export default function Slider() {
         Let's Talk
       </a>
       <div className="slider-my">
-        <p className="text-4">Chech Out My</p>
+        <p className="text-4 check-my">Chech Out My</p>
         <div className="links">
           <a href="https://github.com/ysnkyrr" target="_blank">
             <img className="icons" src="/logo/github-icon.svg" alt="" />

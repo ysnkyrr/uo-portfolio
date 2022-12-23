@@ -7,6 +7,13 @@
 body {
   background-color: #21272f;
 }
+.App {
+  background: linear-gradient(
+    60deg,
+    rgba(84, 58, 183, 1) 0%,
+    rgba(0, 172, 193, 1) 100%
+  );
+}
 .header {
   display: flex;
   width: 80%;
@@ -14,7 +21,12 @@ body {
   margin: auto;
   flex-direction: row;
   color: whitesmoke;
-  background-color: #21272f;
+  top: 0;
+  border-radius: 16px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  padding-left: 3%;
+
+  // background-color: #21272f;
   @media (max-width: 768px) {
     width: 96%;
   }
@@ -51,7 +63,7 @@ body {
   width: 80%;
   margin: auto;
   color: whitesmoke;
-  background-color: #21272f;
+  // background-color: #21272f;
   @media (max-width: 768px) {
     width: 96%;
     align-items: center;
@@ -73,17 +85,20 @@ body {
       }
 
       .text {
-        font-size: 30px;
-        margin-top: 3%;
+        color: #ffffff;
+        font-weight: 700;
+        font-style: normal;
+        margin-top: 0px;
         @media (max-width: 768px) {
           margin: auto;
           margin-right: 1%;
         }
       }
       .text-1 {
-        font-size: 30px;
-        color: #00bd95;
-        margin-top: 3%;
+        color: #ffffff;
+        font-weight: 700;
+        font-style: normal;
+        margin-top: 0px;
         @media (max-width: 768px) {
           margin: auto;
           margin-left: 0;
@@ -91,15 +106,17 @@ body {
       }
     }
     .text-2 {
-      font-size: 20px;
-      margin-top: 3%;
+      font-size: 48px;
+      color: #4fdebf;
+      margin-left: -6px;
     }
     .text-3 {
-      margin-top: 3%;
-      font-size: 14px;
+      color: #ffffff;
+      font-size: 24px;
     }
     .text-4 {
-      margin-top: 4%;
+      line-height: 30px;
+      color: #ffffff;
       margin-bottom: 5%;
       @media (max-width: 768px) {
         margin: auto;
@@ -111,10 +128,10 @@ body {
     }
   }
   .slider-btn {
-    border: 1px solid black;
+    border: 1px solid #00bd95;
 
     padding: 2% 4%;
-    margin-top: 5vh;
+    margin-top: 15vh;
     background-color: #00bd95;
     border-radius: 5px;
     font-size: 7vh;
@@ -141,6 +158,9 @@ body {
     margin-top: 5%;
     margin-bottom: 2%;
     align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
     @media (max-width: 768px) {
       flex-direction: column;
       margin: auto;
@@ -167,7 +187,7 @@ body {
   height: auto;
   margin: auto;
   margin-bottom: 5%;
-  background-color: #1e242a;
+  // background-color: #1e242a;
 
   .services-con {
     width: 80%;
@@ -186,6 +206,7 @@ body {
           font-size: 7vh;
           margin-top: 3%;
           margin-right: 3%;
+          color: whitesmoke;
           @media (max-width: 768px) {
             font-size: 30px;
           }
@@ -202,6 +223,7 @@ body {
       .services-text-2 {
         font-size: 9vh;
         margin-top: 1%;
+        color: whitesmoke;
         @media (max-width: 768px) {
           font-size: 30px;
         }
@@ -226,16 +248,17 @@ body {
         flex-direction: column;
         width: 40%;
         height: 30vh;
-        background-color: #21272f;
+        // background-color: #21272f;
         margin: auto;
         margin-left: 4%;
         padding: 4%;
         align-items: center;
         justify-content: center;
-        border: 1px solid #21272f;
-        border-radius: 6px;
+        // border: 1px solid #21272f;
+        border-radius: 16px;
         text-align: center;
         margin-bottom: 10%;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
         @media (max-width: 768px) {
           margin: 5% 0;
           width: auto;
@@ -269,6 +292,8 @@ body {
   flex-direction: row;
   justify-content: center;
   margin: auto;
+  z-index: 2;
+
   .ph {
     margin: auto;
     display: flex;
@@ -371,6 +396,7 @@ body {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  border-radius: 20px;
 }
 
 .dropdown-content a:hover {
@@ -391,4 +417,109 @@ body {
   -z-animation: rainbow 18s ease infinite;
   -o-animation: rainbow 18s ease infinite;
   animation: rainbow 18s ease infinite;
+}
+
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+// .headers {
+//   height: 70%;
+//   position: sticky;
+//   text-align: center;
+//   background: linear-gradient(
+//     60deg,
+//     rgba(84, 58, 183, 1) 0%,
+//     rgba(0, 172, 193, 1) 100%
+//   );
+//   color: white;
+//   z-index: -5;
+//   top: 0;
+// }
+
+// .inner-header {
+//   height: 100vh;
+//   width: 100%;
+//   margin: 0;
+//   padding: 0;
+//   position: fixed;
+//   z-index: -1;
+
+//   top: 0;
+// }
+p {
+  color: black;
+}
+
+.waves {
+  position: relative;
+  width: 100%;
+  height: 40vh;
+  margin-bottom: -7px; /*Fix for safari gap*/
+  min-height: 100px;
+  max-height: 150px;
+  bottom: 0;
+  z-index: 2;
+}
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+  .content {
+    height: 30vh;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  
+}
+.ani {
+  display: grid;
+  position: sticky;
+  z-index: -5;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 1;
+}
+.tel-mail {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.check-my {
+  color: whitesmoke;
+}
+@media (max-width: 768px) {
+  .slider{
+    margin-top: 20px;
+  }
+  
 }
