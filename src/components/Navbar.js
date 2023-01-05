@@ -15,11 +15,14 @@ export default function Navbar() {
       <div className="dropdown header-item ">
         <button class="dropbtn ">My Projects</button>
         <div className="dropdown-content">
-          <a className="" href="/quiz" target={"_blank"}>
-            Quiz App
+          <a className="" href="/coin" target={"_blank"}>
+            Coin App
           </a>
           <a className="" href="/weather" target={"_blank"}>
             Weather App
+          </a>
+          <a className="" href="/quiz" target={"_blank"}>
+            Quiz App
           </a>
         </div>
       </div>
