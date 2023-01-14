@@ -24,6 +24,9 @@ export default function Navbar() {
           <a className="" href="/quiz" target={"_blank"}>
             Quiz App
           </a>
+          <a className="" href="/flag" target={"_blank"}>
+            Flag App
+          </a>
         </div>
       </div>
       <a className="header-item" href="#footer">
