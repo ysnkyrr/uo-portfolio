@@ -18,7 +18,7 @@ export default function Services() {
               alt=""
               className="services-logo"
             />
-            <p className="services-boxs-texts">UI-UX Desing</p>
+            <p className="services-boxs-texts">UI-UX Design</p>
             <p className="services-boxs-text-1">
               I can make user-oriented designs that are easy to understand and
               take into account user habits.
@@ -26,7 +26,7 @@ export default function Services() {
           </div>
           <div className="services-boxs">
             <img src="/logo/uı.png" className="services-logo" alt="" />
-            <p className="services-boxs-texts">Graphic Desing</p>
+            <p className="services-boxs-texts">Graphic Design</p>
             <p className="services-boxs-text-1">
               I make designs that appeal to the tastes of users and my customers
               with their plain appearance.
